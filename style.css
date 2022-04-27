@@ -1,0 +1,39 @@
+/* base: #F2994A */
+/* T1: #8476AA; */
+/* T2: #99EFD0 */
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   background-color: #3B1D60 !important;
+   display: flex;
+   justify-content: center;
+}
+
+.content-wrapper {
+   width: 1090px;
+   min-height: 100vh;
+   margin: 0;
+   padding: 0;
+   background-color: #3B1D60;
+}
+
+.header {
+   background-color: #3B1D60;
+   margin-top: 78px;
+   display: flex;
+}
+
+.header-navigation {
+   display: flex;
+   align-items: center;
+}
+
+.header-navigation-item {
+   text-transform: uppercase;
+   margin-right: 10px;
+   color: #B5B5B5;
+   font-size: 0.75rem;
+}
