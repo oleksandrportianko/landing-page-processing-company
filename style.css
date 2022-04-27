@@ -10,6 +10,7 @@ body {
    background-color: #3B1D60 !important;
    display: flex;
    justify-content: center;
+   font-family: 'Inter' !important;
 }
 
 .content-wrapper {
@@ -18,11 +19,18 @@ body {
    margin: 0;
    padding: 0;
    background-color: #3B1D60;
+   font-family: 'Inter' !important;
 }
 
 .header {
    background-color: #3B1D60;
    margin-top: 78px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 10px;
+}
+
+.header-first {
    display: flex;
 }
 
@@ -33,7 +41,106 @@ body {
 
 .header-navigation-item {
    text-transform: uppercase;
-   margin-right: 10px;
+   margin-right: 15px;
    color: #B5B5B5;
    font-size: 0.75rem;
+}
+
+.header-singin-button {
+   background-color: transparent;
+   border: 1px solid #F2994A;
+   color: #F2994A;
+   width: 112px;
+   height: 36px;
+   margin-right: 20px;
+   font-family: 'Rubik';
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+.header-singup-button {
+   background-color: #F2994A;
+   color: white;
+   width: 112px;
+   height: 36px;
+   border: none;
+   font-family: 'Rubik';
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+.main-first-block {
+   display: flex;
+   flex-direction: row;
+   margin-top: 68px;
+   margin-right: 10px;
+   width: 100%;
+}
+
+.main-first-info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 100px;
+   width: 640px;
+}
+
+.main-first-title {
+   width: 100%;
+   font-size: 44px;
+   line-height: 50px;
+   font-weight: 700;
+   color: #99EFD0;
+}
+
+.svg-sportsmen-pointer {
+   padding-left: 20px;
+}
+
+.main-first-text {
+   color: #8476AA;
+   font-size: 1.1rem;
+   line-height: 22px;
+   margin-top: 19px;
+   font-weight: 600;
+}
+
+.main-first-buttons {
+   margin-top: 40px;
+   flex-direction: start;
+   width: 100%;
+}
+
+.main-first-button-learn-more {
+   background-color: #F2994A;
+   color: white;
+   border: none;
+   font-family: 'Rubic';
+   font-size: 12px;
+   text-transform: uppercase;
+   width: 157px;
+   height: 46px;
+   margin-right: 20px;
+   font-weight: 500;
+}
+
+.main-first-button-demo {
+   border: 1px solid #F2994A;
+   color: #F2994A;
+   background-color: transparent;
+   font-family: 'Rubic';
+   font-size: 12px;
+   text-transform: uppercase;
+   width: 157px;
+   height: 46px;
+   font-weight: 500;
+}
+
+.main-first-video {
+   display: flex;
+   width: 100%;
+}
+
+.main-first-video-icon {
+   
 }
