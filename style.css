@@ -274,3 +274,112 @@ body {
    color: #8476AA;
    font-size: 0.875rem;
 }
+
+.main-third-block {
+   width: 100%;
+   padding-top: 150px;
+   min-height: 700px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(./images/background2.svg);
+   background-repeat: no-repeat;
+   background-position-y: 430px;
+}
+
+.main-third-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-third-text-information {
+   width: 470px;
+}
+
+.main-third-text-title-basic {
+   color: #99EFD0;
+   font-family: 'Inter';
+   font-size: 42px;
+   line-height: 50px;
+   font-weight: 700;
+}
+
+.main-third-text-title-yellow {
+   color: #F2994A;
+   font-family: 'Inter';
+   font-size: 42px;
+   line-height: 50px;
+   font-weight: 700;
+}
+
+.main-third-text {
+   color: #8476AA;
+   font-size: 15px;
+   line-height: 28px;
+   margin-top: 32px;
+}
+
+.main-third-text-button {
+   width: 155px;
+   height: 48px;
+   border-radius: 3px;
+   background-color: #F2994A;
+   color: white;
+   border: none;
+   margin-top: 43px;
+}
+
+.main-third-block-buy-computer {
+   width: 1091px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 200px;
+}
+
+.main-third-buy-computer-title {
+   width: 864px;
+   text-align: center;
+}
+
+.main-third-buy-computer-text {
+   width: 420px;
+   color: #8476AA;
+   font-size: 15px;
+   line-height: 28px;
+   margin-top: 32px;
+   text-align: center;
+}
+
+.main-third-buy-computer-ways {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   margin-top: 46px;
+}
+
+.main-third-buy-computer-way {
+   width: 291px;
+   height: 118px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.main-third-buy-computer-way-title {
+   font-family: "Inter";
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 42px;
+   color: #99EFD0;
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+.main-third-buy-computer-way-text {
+   color: #8476AA;
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+}
