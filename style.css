@@ -438,3 +438,72 @@ body {
    padding-left: 90px;
    margin-right: 100px;
 }
+
+.main-fifth-block {
+   background-image: url('./images/background4.svg');
+   background-repeat: no-repeat;
+   background-position-x: right;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 150px;
+}
+
+.main-fifth-block-wrapper {
+   width: 1091px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.main-fifth-block-text-information {
+   display: flex;
+   flex-direction: column;
+   margin-top: 80px;
+   margin-left: 90px;
+}
+
+.main-fifth-block-title {
+   font-size: 26px;
+   line-height: 32px;
+   font-family: "Inter";
+   font-weight: 700;
+   color: #99EFD0;
+}
+
+.main-fifth-block-text {
+   color: #8476AA;
+   font-size: 15px;
+   font-weight: 20px;
+   margin-top: 32px;
+}
+
+.main-fifth-block-parts {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+
+.main-fifth-block-part {
+   display: flex;
+   flex-direction: column;
+   margin-right: 30px;
+}
+
+.main-fifth-block-part-img {
+   width: 36px;
+   height: 36px;
+   margin-bottom: 16px;
+}
+
+.main-fifth-block-part-title {
+   color: #99EFD0;
+   font-size: 15px;
+   line-height: 18px;
+   margin-bottom: 6px;
+}
+
+.main-fifth-block-part-text {
+   color: #8476AA;
+   font-size: 15px;
+   line-height: 20px;
+}
